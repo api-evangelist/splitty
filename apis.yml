@@ -1,7 +1,25 @@
 aid: splitty
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/splitty.png
 name: Splitty
-description: Splitty is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Splitty (splittytravel.com) is a Techstars-backed online travel company that offered
+  discounted hotel bookings by algorithmically splitting a single multi-night stay across
+  separate reservations to surface lower nightly rates. The consumer service has since been
+  wound down and now operates as "Splitty by trivago DEALS Ltd." - it no longer accepts new
+  bookings and only lets existing customers manage their reservations, redirecting new hotel
+  searches to trivago DEALS (trivago.DEALS). Splitty publishes no public developer program,
+  API, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/splitty/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +27,20 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: wound-down
+x-note: 'Consumer hotel-booking service wound down; now operates as "Splitty by trivago
+  DEALS Ltd." for managing existing bookings only. No public API surface.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Travel
+- Hotels
+- Booking
+- Consumer
+- Techstars
+- Trivago
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +49,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://splittytravel.com/
+  url: https://www.splittytravel.com/
+- type: Support
+  url: https://www.splittytravel.com/faq
+- type: PrivacyPolicy
+  url: https://www.splittytravel.com/privacy-policy
+- type: TermsOfService
+  url: https://www.splittytravel.com/terms-and-conditions
+- type: DomainSecurity
+  url: security/splitty-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
