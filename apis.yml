@@ -32,6 +32,8 @@ description: >-
   searches to trivago DEALS (trivago.DEALS). Splitty publishes no public developer program,
   API, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/splitty/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
